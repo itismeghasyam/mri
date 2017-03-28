@@ -1,0 +1,1 @@
+function z = ift(a,dims)   % function z = ift(a,[dims]);% ifft of a with zero frequency in center% if dims is given, perform ifft on dimension(s) given% else perform ifft on all dimensionsif nargin==1    z = fftshift(ifftn(fftshift(a)));else    z = a;    for d=1:length(dims)        dim = dims(d);        z = fftshift(ifft(fftshift(z,dim),[],dim),dim);    endend
