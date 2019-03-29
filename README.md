@@ -1,6 +1,6 @@
 # mri
 
-** For oprimal waveform for a given trajectory look at https://github.com/itismeghasyam/mri_opt_waveform **
+** For optimal waveform for a given trajectory look at https://github.com/itismeghasyam/mri_opt_waveform **
 
 Compressed sensing in MRI: Study of undersampling patterns, 3D MR image compression using PCA and Optimal Gradient waveforms for a given trajectory
 
